@@ -1,0 +1,447 @@
+hevy_template_id,title,type,primary_muscle_group
+3BC06AD3,21s Bicep Curl,weight_reps,biceps
+B4F2FF72,Ab Scissors,reps_only,abdominals
+99D5F10E,Ab Wheel,reps_only,abdominals
+5E0DDACE,Aerobics,duration,cardio
+43573BB8,Air Bike,duration,cardio
+A69FF221,Arnold Press (Dumbbell),weight_reps,shoulders
+D4A2FE7E,Around The World,weight_reps,chest
+5BFF35BA,Assisted Pistol Squats,reps_only,quadriceps
+4F5866F8,Back Extension (Hyperextension),reps_only,lower_back
+A05C064D,Back Extension (Machine),weight_reps,lower_back
+091737FA,Back Extension (Weighted Hyperextension),bodyweight_weighted,lower_back
+F51D9080,Ball Slams,weight_reps,full_body
+E8D86EE8,Band Pullaparts,reps_only,shoulders
+084A67CA,Battle Ropes,duration,cardio
+DDB29047,Behind the Back Bicep Wrist Curl (Barbell),weight_reps,forearms
+2DBCA395,Behind the Back Curl (Cable),weight_reps,biceps
+3D1CDC75,Belt Squat (Machine),weight_reps,quadriceps
+CD6DC8E5,Bench Dip,reps_only,triceps
+79D0BB3A,Bench Press (Barbell),weight_reps,chest
+99C1F2AD,Bench Press (Cable),weight_reps,chest
+3601968B,Bench Press (Dumbbell),weight_reps,chest
+0FBF7195,Bench Press (Smith Machine),weight_reps,chest
+35B51B87,Bench Press - Close Grip (Barbell),weight_reps,triceps
+E644F828,Bench Press - Wide Grip (Barbell),weight_reps,chest
+EA820646,Bent Over Row (Band),weight_reps,upper_back
+55E6546F,Bent Over Row (Barbell),weight_reps,upper_back
+23E92538,Bent Over Row (Dumbbell),weight_reps,upper_back
+A5AC6449,Bicep Curl (Barbell),weight_reps,biceps
+ADA8623C,Bicep Curl (Cable),weight_reps,biceps
+37FCC2BB,Bicep Curl (Dumbbell),weight_reps,biceps
+AF328E3D,Bicep Curl (Machine),weight_reps,biceps
+0B4C1902,Bicep Curl (Suspension),reps_only,biceps
+348045bb-cf8a-48a3-9dc2-c86367786a2b,Bicep Static Stretch,duration,biceps
+A41C7261,Bicycle Crunch,reps_only,abdominals
+594450D2,Bicycle Crunch Raised Legs,reps_only,abdominals
+BD0AD077,Bird Dog,reps_only,glutes
+56092DD1,Box Jump,reps_only,quadriceps
+38FC1AB9,Box Squat (Barbell),weight_reps,quadriceps
+A0D8FA1B,Boxing,duration,cardio
+B5D3A742,Bulgarian Split Squat,weight_reps,quadriceps
+BB792A36,Burpee,reps_only,full_body
+115CC72C,Burpee Broad Jumps,distance_duration,full_body
+86B00DDE,Burpee Over the Bar,reps_only,full_body
+9DCE2D64,Butterfly (Pec Deck),weight_reps,chest
+CC55119B,Cable Core Pallof Press,weight_reps,abdominals
+23A48484,Cable Crunch,weight_reps,abdominals
+651F844C,Cable Fly Crossovers,weight_reps,chest
+8C331CD8,Cable Pull Through,weight_reps,glutes
+92D858EA,Cable Twist (Down to up),weight_reps,abdominals
+A2D838BD,Cable Twist (Up to down),weight_reps,abdominals
+47B9DF13,Calf Extension (Machine),weight_reps,calves
+91237BDD,Calf Press (Machine),weight_reps,calves
+6FCD7755,Chest Dip,reps_only,chest
+E9E4089F,Chest Dip (Assisted),bodyweight_assisted,chest
+29472BE1,Chest Dip (Weighted),bodyweight_weighted,chest
+DDB7C19F,Chest Fly (Band),weight_reps,chest
+12017185,Chest Fly (Dumbbell),weight_reps,chest
+78683336,Chest Fly (Machine),weight_reps,chest
+720B0D70,Chest Fly (Suspension),reps_only,chest
+EAC7D9C5,Chest Press (Band),weight_reps,chest
+7EB3F7C3,Chest Press (Machine),weight_reps,chest
+914F3A96,Chest Supported Incline Row (Dumbbell),weight_reps,upper_back
+02369d63-8f67-4890-8da2-023eb3f4dafa,Chest Supported Machine Row,weight_reps,cardio
+B582299E,Chest Supported Reverse Fly (Dumbbell),weight_reps,shoulders
+F21D5693,Chest Supported Y Raise (Dumbbell),weight_reps,shoulders
+29083183,Chin Up,reps_only,lats
+D23C609B,Chin Up (Assisted),bodyweight_assisted,lats
+023943F1,Chin Up (Weighted),bodyweight_weighted,lats
+CC016611,Clamshell,reps_only,glutes
+10D76E8F,Clap Push Ups,reps_only,chest
+ABB00838,Clean,weight_reps,full_body
+652FEA39,Clean Pull,weight_reps,full_body
+9E09CEC3,Clean and Jerk,weight_reps,full_body
+D3095577,Clean and Press,weight_reps,full_body
+E23F1F2B,Climbing,duration,cardio
+724CDE60,Concentration Curl,weight_reps,biceps
+32C4D4A2,Cross Body Hammer Curl,weight_reps,biceps
+DCF3B31B,Crunch,reps_only,abdominals
+EB43ADD4,Crunch (Machine),weight_reps,abdominals
+D928C232,Crunch (Weighted),bodyweight_weighted,abdominals
+D39EC9EB,Curtsy Lunge (Dumbbell),weight_reps,quadriceps
+D8F7F851,Cycling,distance_duration,cardio
+D8911FC4,Dead Bug,reps_only,abdominals
+B9380898,Dead Hang,duration,upper_back
+99507114,Deadlift (Band),weight_reps,glutes
+C6272009,Deadlift (Barbell),weight_reps,glutes
+5F4E6DD3,Deadlift (Dumbbell),weight_reps,glutes
+20870ED5,Deadlift (Smith Machine),weight_reps,glutes
+B923B230,Deadlift (Trap bar),weight_reps,glutes
+FA5D0DE1,Deadlift High Pull,weight_reps,full_body
+DA0F0470,Decline Bench Press (Barbell),weight_reps,chest
+18487FA7,Decline Bench Press (Dumbbell),weight_reps,chest
+FAF31231,Decline Bench Press (Machine),weight_reps,chest
+FFC106CB,Decline Bench Press (Smith Machine),weight_reps,chest
+A351AED7,Decline Chest Fly (Dumbbell),weight_reps,chest
+BC10A922,Decline Crunch,reps_only,abdominals
+B2398CD1,Decline Crunch (Weighted),bodyweight_weighted,abdominals
+C43825EA,Decline Push Up,reps_only,chest
+6575F52D,Diamond Push Up,reps_only,triceps
+7DA843A3,Downward Dog,reps_only,full_body
+D950429E,Drag Curl,weight_reps,biceps
+AFC29472,Dragon Flag,reps_only,abdominals
+B7192800,Dragonfly,reps_only,abdominals
+F1E57334,Dumbbell Row,weight_reps,lats
+F3717B0E,Dumbbell Snatch,weight_reps,full_body
+F72FA239,Dumbbell Squeeze Press,weight_reps,chest
+BF6ECE89,Dumbbell Step Up,weight_reps,quadriceps
+01A35BF9,EZ Bar Biceps Curl,weight_reps,biceps
+A01BE509,Elbow to Knee,reps_only,abdominals
+3303376C,Elliptical Trainer,distance_duration,cardio
+BE640BA0,Face Pull,weight_reps,shoulders
+50C613D0,Farmers Walk,short_distance_weight,full_body
+867AC3B6,Feet Up Bench Press (Barbell),weight_reps,chest
+2AF8B552,Fire Hydrants,reps_only,glutes
+D53F2886,Floor Press (Barbell),weight_reps,chest
+756EE329,Floor Press (Dumbbell),weight_reps,chest
+A57D38D5,Floor Triceps Dip,reps_only,triceps
+2FA77B28,Flutter Kicks,reps_only,abdominals
+207DC636,Frog Jumps,reps_only,quadriceps
+F6948F17,Frog Pumps (Dumbbell),weight_reps,glutes
+0E608350,Front Lever Hold,duration,full_body
+30F03BF0,Front Lever Raise,reps_only,full_body
+47B036EF,Front Raise (Band),weight_reps,shoulders
+BD86EFD5,Front Raise (Barbell),weight_reps,shoulders
+DBB91A3C,Front Raise (Cable),weight_reps,shoulders
+8293E554,Front Raise (Dumbbell),weight_reps,shoulders
+796E8E2C,Front Raise (Suspension),reps_only,shoulders
+5046D0A9,Front Squat,weight_reps,quadriceps
+1283BBA6,Full Squat,weight_reps,quadriceps
+CDA23948,Glute Bridge,reps_only,glutes
+68B83EE0,Glute Ham Raise,reps_only,hamstrings
+CBA02382,Glute Kickback (Machine),weight_reps,glutes
+987234AB,Glute Kickback on Floor,reps_only,glutes
+3D0C7C75,Goblet Squat,weight_reps,quadriceps
+4180C405,Good Morning (Barbell),weight_reps,hamstrings
+05487216,Gorilla Row (Kettlebell),weight_reps,upper_back
+023947AB,HIIT,duration,cardio
+AC5A4C58,Hack Squat,weight_reps,quadriceps
+1E42FD5F,Hack Squat (Machine),weight_reps,quadriceps
+1D4B3D6B,Hammer Curl (Band),weight_reps,biceps
+36E8F14E,Hammer Curl (Cable),weight_reps,biceps
+7E3BC8B6,Hammer Curl (Dumbbell),weight_reps,biceps
+BE3615CF,Handstand Hold,duration,full_body
+90B04F96,Handstand Push Up,reps_only,shoulders
+BD4E7E53,Hang Clean,weight_reps,full_body
+F4E77594,Hang Snatch,weight_reps,full_body
+08590920,Hanging Knee Raise,reps_only,abdominals
+F8356514,Hanging Leg Raise,reps_only,abdominals
+567FB505,Heel Taps,reps_only,abdominals
+BE89C631,Hex Press (Dumbbell),weight_reps,chest
+C9CCB878,High Knee Skips,reps_only,full_body
+150E076B,High Knees,reps_only,full_body
+1C34A172,Hiking,distance_duration,cardio
+F4B4C6EE,Hip Abduction (Machine),weight_reps,abductors
+8BEBFED6,Hip Adduction (Machine),weight_reps,adductors
+92B8C7E1,Hip Thrust,reps_only,glutes
+D57C2EC7,Hip Thrust (Barbell),weight_reps,glutes
+68CE0B9B,Hip Thrust (Machine),weight_reps,glutes
+291ABA92,Hip Thrust (Smith Machine),weight_reps,glutes
+970ADF87,Hollow Rock,duration,abdominals
+50DFDFAB,Incline Bench Press (Barbell),weight_reps,chest
+07B38369,Incline Bench Press (Dumbbell),weight_reps,chest
+3A6FA3D1,Incline Bench Press (Smith Machine),weight_reps,chest
+D3E2AB55,Incline Chest Fly (Dumbbell),weight_reps,chest
+FBF92739,Incline Chest Press (Machine),weight_reps,chest
+7afbf26f-bc75-481b-978b-b080850e23aa,Incline Dumbbell Y-Raise,weight_reps,shoulders
+39C99849,Incline Push Ups,reps_only,chest
+425805F4,Inverted Row,reps_only,upper_back
+24706DCD,Iso-Lateral Chest Press (Machine),weight_reps,chest
+BC3492DA,Iso-Lateral High Row (Machine),weight_reps,lats
+91FAFBA3,Iso-Lateral Low Row,weight_reps,upper_back
+AA1EB7D8,Iso-Lateral Row (Machine),weight_reps,upper_back
+74103F24,JM Press (Barbell),weight_reps,triceps
+D410F649,Jack Knife (Suspension),reps_only,abdominals
+32B0B590,Jackknife Sit Up,reps_only,abdominals
+040BA2E3,Jump Rope,duration,cardio
+BA3DE542,Jump Shrug,weight_reps,full_body
+70D4EBBF,Jump Squat,reps_only,quadriceps
+991833C2,Jumping Jack,reps_only,full_body
+5CC07A1F,Jumping Lunge,reps_only,quadriceps
+3b7ab7ce-8322-4e1c-ad78-16780bd3133c,Kelso Shrug,weight_reps,traps
+55BA475A,Kettlebell Around the World,weight_reps,shoulders
+F99C211D,Kettlebell Clean,weight_reps,full_body
+4E239ED8,Kettlebell Curl,weight_reps,biceps
+A127DA73,Kettlebell Goblet Squat,weight_reps,quadriceps
+4288G454,Kettlebell Halo,weight_reps,shoulders
+9B13BA4B,Kettlebell High Pull,weight_reps,full_body
+6433CD93,Kettlebell Shoulder Press,weight_reps,shoulders
+89304423,Kettlebell Snatch,weight_reps,full_body
+F8A0FCCA,Kettlebell Swing,weight_reps,full_body
+5F8903BF,Kettlebell Turkish Get Up,weight_reps,full_body
+A91838C0,Kipping Pull Up,reps_only,lats
+98237BA2,Knee Raise Parallel Bars,reps_only,abdominals
+D82EA543,Kneeling Pulldown (band),weight_reps,lats
+B74A95BB,Kneeling Push Up,reps_only,chest
+6D54A050,L-Sit Hold,duration,abdominals
+923874CA,Landmine 180,weight_reps,abdominals
+D7D7FCCE,Landmine Row,weight_reps,upper_back
+983274DD,Landmine Squat and Press,weight_reps,full_body
+fd25f083-9297-444c-8ea6-b24892894d5e,Larsen Press,weight_reps,chest
+D2FE7B2E,Lat Pulldown (Band),weight_reps,lats
+6A6C31A5,Lat Pulldown (Cable),weight_reps,lats
+473CF5B8,Lat Pulldown (Machine),weight_reps,lats
+4E5257DE,Lat Pulldown - Close Grip (Cable),weight_reps,lats
+e5799beb-1dab-44b1-a950-4441fe9fbf24,Lat Static Stretch,duration,lats
+EC02979E,Lateral Band Walks,reps_only,glutes
+07EBC4DC,Lateral Box Jump,reps_only,quadriceps
+DC59D143,Lateral Leg Raises,reps_only,glutes
+F2A37357,Lateral Lunge,reps_only,quadriceps
+DF200976,Lateral Raise (Band),weight_reps,shoulders
+BE289E45,Lateral Raise (Cable),weight_reps,shoulders
+422B08F1,Lateral Raise (Dumbbell),weight_reps,shoulders
+D5D0354D,Lateral Raise (Machine),weight_reps,shoulders
+D731CCA8,Lateral Squat,reps_only,quadriceps
+75A4F6C4,Leg Extension (Machine),weight_reps,quadriceps
+C7973E0E,Leg Press (Machine),weight_reps,quadriceps
+0EB695C9,Leg Press Horizontal (Machine),weight_reps,quadriceps
+b0b6e92e-c9ca-45b5-a3f6-e065d89e0978,Leg Press Toe Press,weight_reps,quadriceps
+0482DA98,Leg Raise Parallel Bars,reps_only,abdominals
+293483AD,Low Cable Fly Crossovers,weight_reps,chest
+8A2E6481,Low Row (Suspension),reps_only,upper_back
+5E1A7777,Lunge,reps_only,quadriceps
+6E6EE645,Lunge (Barbell),weight_reps,quadriceps
+B537D09F,Lunge (Dumbbell),weight_reps,quadriceps
+BD5935CF,Lying Knee Raise,reps_only,abdominals
+B8127AD1,Lying Leg Curl (Machine),weight_reps,hamstrings
+09C9F635,Lying Leg Raise,reps_only,abdominals
+22FEDCA4,Lying Neck Curls,reps_only,neck
+31B8DA0F,Lying Neck Curls (Weighted),weight_reps,neck
+0910BD28,Lying Neck Extension,reps_only,neck
+D6A73CF2,Lying Neck Extension (Weighted),weight_reps,neck
+e1531d46-52f6-4fca-8379-31d8fbe62533,Machine Press Around,weight_reps,chest
+C732C341,Meadows Rows (Barbell),weight_reps,upper_back
+F49E31D6,Mountain Climber,reps_only,full_body
+9F9C164B,Muscle Up,reps_only,full_body
+F60BDDF8,Negative Pull Up,bodyweight_weighted,lats
+108D7A14,Nordic Hamstrings Curls,reps_only,hamstrings
+DBE341AA,Oblique Crunch,reps_only,abdominals
+B140095E,One Arm Push Up,reps_only,chest
+582ADA23,Overhead Curl (Cable),weight_reps,biceps
+4C6721B9,Overhead Dumbbell Lunge,weight_reps,quadriceps
+54E60954,Overhead Plate Raise,weight_reps,shoulders
+7B8D84E8,Overhead Press (Barbell),weight_reps,shoulders
+6AC96645,Overhead Press (Dumbbell),weight_reps,shoulders
+B09A1304,Overhead Press (Smith Machine),weight_reps,shoulders
+2CFED196,Overhead Squat,weight_reps,full_body
+B5EFBF9C,Overhead Triceps Extension (Cable),weight_reps,triceps
+FBEE8279,Partial Glute Bridge (Barbell),weight_reps,glutes
+CE1054CE,Pause Squat (Barbell),weight_reps,quadriceps
+7f37cac3-4090-4961-a98c-1bc7577993cc,Pec Static Stretch,duration,shoulders
+018ADC12,Pendlay Row (Barbell),weight_reps,upper_back
+30E293E3,Pendulum Squat (Machine),weight_reps,quadriceps
+0EFE8162,Pike Pushup,reps_only,shoulders
+EC2510CD,Pilates,duration,full_body
+942BAD12,Pinwheel Curl (Dumbbell),weight_reps,biceps
+3FF6A22E,Pistol Squat,reps_only,quadriceps
+C6C9B8A0,Plank,duration,abdominals
+31436F5D,Plank Pushup,reps_only,chest
+9283ABD5,Plate Curl,weight_reps,biceps
+DBF9273A,Plate Front Raise,weight_reps,shoulders
+982734D4,Plate Press,weight_reps,chest
+9373FSD1,Plate Squeeze (Svend Press),weight_reps,chest
+C628D768,Power Clean,weight_reps,full_body
+E22F9358,Power Snatch,weight_reps,full_body
+4F942934,Preacher Curl (Barbell),weight_reps,biceps
+FAB6EB2F,Preacher Curl (Dumbbell),weight_reps,biceps
+1E9A6B8E,Preacher Curl (Machine),weight_reps,biceps
+84A77566,Press Under,weight_reps,full_body
+1B2B1E7C,Pull Up,reps_only,lats
+2C37EC5E,Pull Up (Assisted),bodyweight_assisted,lats
+56808FD2,Pull Up (Band),bodyweight_assisted,lats
+729237D1,Pull Up (Weighted),bodyweight_weighted,lats
+67280085,Pullover (Dumbbell),weight_reps,lats
+B123DD01,Pullover (Machine),weight_reps,lats
+542F3CD5,Push Press,weight_reps,shoulders
+392887AA,Push Up,reps_only,chest
+19372ABC,Push Up (Weighted),bodyweight_weighted,chest
+947DAC23,Push Up - Close Grip,reps_only,chest
+FE389074,Rack Pull,weight_reps,upper_back
+C315DC2A,Rear Delt Reverse Fly (Cable),weight_reps,shoulders
+E5988A0A,Rear Delt Reverse Fly (Dumbbell),weight_reps,shoulders
+D8281C62,Rear Delt Reverse Fly (Machine),weight_reps,shoulders
+1ADF8723,Rear Kick (Machine),weight_reps,glutes
+1B89CA1B,Renegade Row (Dumbbell),weight_reps,upper_back
+7952B5CD,Reverse Crunch,reps_only,abdominals
+112FC6B7,Reverse Curl (Barbell),weight_reps,biceps
+9F48F858,Reverse Curl (Cable),weight_reps,biceps
+B567DD46,Reverse Curl (Dumbbell),weight_reps,biceps
+9264ADA1,Reverse Fly Single Arm (Cable),weight_reps,shoulders
+1FF4097B,Reverse Grip Concentration Curl,weight_reps,biceps
+046E25A2,Reverse Grip Lat Pulldown (Cable),weight_reps,lats
+7C0028C3,Reverse Hyperextension,weight_reps,glutes
+C284D923,Reverse Lunge,reps_only,quadriceps
+818BA121,Reverse Lunge (Barbell),weight_reps,quadriceps
+FFDA283B,Reverse Lunge (Dumbbell),weight_reps,quadriceps
+99B49684,Reverse Plank,duration,abdominals
+51A0EDAA,Ring Dips,reps_only,chest
+5F09F0FC,Ring Pull Up,reps_only,lats
+AEA56BDC,Ring Push Up,reps_only,chest
+2B4B7310,Romanian Deadlift (Barbell),weight_reps,hamstrings
+72CFFAD5,Romanian Deadlift (Dumbbell),weight_reps,hamstrings
+234897AB,Rope Cable Curl,weight_reps,biceps
+9273BA17,Rope Straight Arm Pulldown,weight_reps,lats
+0222DB42,Rowing Machine,distance_duration,cardio
+AC1BB830,Running,distance_duration,cardio
+BB83BDDE,Russian Twist (Bodyweight),reps_only,abdominals
+2982AA23,Russian Twist (Weighted),weight_reps,abdominals
+C7AE420A,Scapular Pull Ups,reps_only,upper_back
+F1D60854,Seated Cable Row - Bar Grip,weight_reps,upper_back
+C3BCABB3,Seated Cable Row - Bar Wide Grip,weight_reps,upper_back
+0393F233,Seated Cable Row - V Grip (Cable),weight_reps,upper_back
+062AB91A,Seated Calf Raise,weight_reps,calves
+6B4C797E,Seated Chest Flys (Cable),weight_reps,chest
+5122E7D9,Seated Dip Machine,weight_reps,triceps
+8BAB2735,Seated Incline Curl (Dumbbell),weight_reps,biceps
+9372FFAA,Seated Lateral Raise (Dumbbell),weight_reps,shoulders
+11A123F3,Seated Leg Curl (Machine),weight_reps,hamstrings
+91AF29E0,Seated Overhead Press (Barbell),weight_reps,shoulders
+9930DF71,Seated Overhead Press (Dumbbell),weight_reps,shoulders
+1006DF48,Seated Palms Up Wrist Curl,weight_reps,forearms
+1DF4A847,Seated Row (Machine),weight_reps,upper_back
+9237BAD1,Seated Shoulder Press (Machine),weight_reps,shoulders
+234BC743,Seated Triceps Press,weight_reps,triceps
+9202CC23,Seated Wrist Extension (Barbell),weight_reps,forearms
+878CD1D0,Shoulder Press (Dumbbell),weight_reps,shoulders
+059E835D,Shoulder Press (Machine Plates),weight_reps,shoulders
+502FCE31,Shoulder Taps,reps_only,shoulders
+0B841777,Shrug (Barbell),weight_reps,traps
+FFABC123,Shrug (Cable),weight_reps,traps
+ABEC557F,Shrug (Dumbbell),weight_reps,traps
+19A38071,Shrug (Machine),weight_reps,traps
+742E5BD5,Shrug (Smith Machine),weight_reps,traps
+37F9EDA7,Side Bend,reps_only,abdominals
+026FD047,Side Bend (Dumbbell),weight_reps,abdominals
+725d326a-e2f1-43bd-aa77-3484aca79491,Side Delt Static STRETCH,duration,shoulders
+E3EDA509,Side Plank,duration,abdominals
+bb35664c-bdc8-4dcb-9956-d80e92d73896,Single Arm Bicep Curl,weight_reps,biceps
+8372BBCC,Single Arm Cable Crossover,weight_reps,chest
+5c9e6e9b-ebbb-4724-aede-820c5fcde952,Single Arm Cable Curl,weight_reps,biceps
+D0C4A899,Single Arm Cable Row,weight_reps,upper_back
+B33B526E,Single Arm Curl (Cable),weight_reps,biceps
+1837BA23,Single Arm Landmine Press (Barbell),weight_reps,shoulders
+2EE45F81,Single Arm Lat Pulldown,weight_reps,lats
+DE68C825,Single Arm Lateral Raise (Cable),weight_reps,shoulders
+8347DFD1,Single Arm Tricep Extension (Dumbbell),weight_reps,triceps
+552AB030,Single Arm Triceps Pushdown (Cable),weight_reps,triceps
+629AE73D,Single Leg Extensions,weight_reps,quadriceps
+CBC0D834,Single Leg Glute Bridge,reps_only,glutes
+487B3755,Single Leg Hip Thrust,reps_only,glutes
+D1CD146F,Single Leg Hip Thrust (Dumbbell),weight_reps,glutes
+3FD83744,Single Leg Press (Machine),weight_reps,quadriceps
+93472AC1,Single Leg Romanian Deadlift (Barbell),weight_reps,hamstrings
+937292AB,Single Leg Romanian Deadlift (Dumbbell),weight_reps,hamstrings
+238BA231,Single Leg Standing Calf Raise,reps_only,calves
+E51CCBE5,Single Leg Standing Calf Raise (Barbell),weight_reps,calves
+5DA40761,Single Leg Standing Calf Raise (Dumbbell),weight_reps,calves
+B05C2C29,Single Leg Standing Calf Raise (Machine),weight_reps,calves
+F5DEF1EB,Sissy Squat (Weighted),weight_reps,quadriceps
+022DF610,Sit Up,reps_only,abdominals
+9237BA12,Sit Up (Weighted),bodyweight_weighted,abdominals
+24A809EF,Skating,duration,cardio
+5D99A2FA,Ski Erg,distance_duration,cardio
+84325755,Skiing,duration,cardio
+875F585F,Skullcrusher (Barbell),weight_reps,triceps
+68F8A292,Skullcrusher (Dumbbell),weight_reps,triceps
+7D1BD41D,Sled Pull,short_distance_weight,full_body
+7757171F,Sled Push,distance_duration,full_body
+5dd5cb0a-26d9-4ce2-8c90-b69535930e4d,Smith Machine Lunge,weight_reps,quadriceps
+FB09C938,Snatch,weight_reps,full_body
+911A58D3,Snowboarding,duration,cardio
+2348AB72,Spider Curl (Barbell),weight_reps,biceps
+90427D4A,Spider Curl (Dumbbell),weight_reps,biceps
+C10A5AC9,Spiderman,reps_only,abdominals
+213AB238,Spinning,duration,cardio
+E764B907,Split Jerk,weight_reps,full_body
+20C1A3CB,Split Squat (Dumbbell),weight_reps,quadriceps
+9283BABA,Sprints,distance_duration,cardio
+F1258206,Squat (Band),weight_reps,quadriceps
+D04AC939,Squat (Barbell),weight_reps,quadriceps
+9694DA61,Squat (Bodyweight),reps_only,quadriceps
+DCFF3E9F,Squat (Dumbbell),weight_reps,quadriceps
+CC35A01F,Squat (Machine),weight_reps,quadriceps
+DDCC3821,Squat (Smith Machine),weight_reps,quadriceps
+B82D6418,Squat (Suspension),reps_only,quadriceps
+A8814C06,Squat Row,weight_reps,full_body
+4377A52B,Stair Machine (Floors),floors_duration,cardio
+4377A52C,Stair Machine (Steps),steps_duration,cardio
+ACB2751D,Standing Cable Glute Kickbacks,weight_reps,glutes
+06745E58,Standing Calf Raise,reps_only,calves
+E53CCBE5,Standing Calf Raise (Barbell),weight_reps,calves
+6DA40660,Standing Calf Raise (Dumbbell),weight_reps,calves
+E05C2C38,Standing Calf Raise (Machine),weight_reps,calves
+AA52E8D2,Standing Calf Raise (Smith),weight_reps,calves
+6120CAAB,Standing Leg Curls,weight_reps,hamstrings
+073032BB,Standing Military Press (Barbell),weight_reps,shoulders
+128A2381,Step Up,reps_only,quadriceps
+EE2938D1,Sternum Pull up (Gironda),reps_only,lats
+D2387AB1,Straight Arm Lat Pulldown (Cable),weight_reps,lats
+2A48E443,Straight Leg Deadlift,weight_reps,hamstrings
+527DA061,Stretching,duration,other
+D20D7BBE,Sumo Deadlift,weight_reps,glutes
+3F5F8D40,Sumo Squat,reps_only,quadriceps
+6622E5A0,Sumo Squat (Barbell),weight_reps,quadriceps
+05293BCA,Sumo Squat (Dumbbell),weight_reps,quadriceps
+5E10D0E6,Sumo Squat (Kettlebell),weight_reps,quadriceps
+218DA87C,Superman,reps_only,lower_back
+B60A678F,Swimming,distance_duration,cardio
+08A2974E,T Bar Row,weight_reps,upper_back
+90E506D5,Thruster (Barbell),weight_reps,full_body
+10313AFD,Thruster (Kettlebell),weight_reps,full_body
+75BAC5C3,Toe Touch,reps_only,abdominals
+B94E35E1,Toes to Bar,reps_only,abdominals
+FBB62888,Torso Rotation,weight_reps,abdominals
+243710DE,Treadmill,distance_duration,cardio
+28BB4A95,Triceps Dip,reps_only,triceps
+4B4BF8C2,Triceps Dip (Assisted),bodyweight_assisted,triceps
+10347BAC,Triceps Dip (Weighted),bodyweight_weighted,triceps
+2F8D3067,Triceps Extension (Barbell),weight_reps,triceps
+21310F5F,Triceps Extension (Cable),weight_reps,triceps
+3765684D,Triceps Extension (Dumbbell),weight_reps,triceps
+3092FADD,Triceps Extension (Machine),weight_reps,triceps
+6182EE83,Triceps Extension (Suspension),reps_only,triceps
+EC3B69A3,Triceps Kickback (Cable),weight_reps,triceps
+6127A3AD,Triceps Kickback (Dumbbell),weight_reps,triceps
+CDC472B1,Triceps Pressdown,weight_reps,triceps
+93A552C6,Triceps Pushdown,weight_reps,triceps
+94B7239B,Triceps Rope Pushdown,weight_reps,triceps
+7AB9A362,Upright Row (Barbell),weight_reps,shoulders
+286C1D0B,Upright Row (Cable),weight_reps,shoulders
+797F0782,Upright Row (Dumbbell),weight_reps,shoulders
+6BE68B62,V Up,reps_only,abdominals
+72880C57,Vertical Traction (Machine),weight_reps,lats
+72297E8C,Waiter Curl (Dumbbell),weight_reps,biceps
+33EDD7DB,Walking,distance_duration,cardio
+32HKJ34K,Walking Lunge,reps_only,quadriceps
+A733CC5B,Walking Lunge (Dumbbell),short_distance_weight,quadriceps
+F30A4F01,Walking Lunge (Sandbag),short_distance_weight,quadriceps
+A1F47ACC,Wall Ball,weight_reps,full_body
+C8706C80,Wall Sit,duration,quadriceps
+79EF4E4F,Warm Up,duration,full_body
+7C50F118,Wide Pull Up,reps_only,lats
+B31EB524,Wide-Elbow Triceps Press (Dumbbell),weight_reps,triceps
+0E4523F4,Wrist Roller,weight_reps,forearms
+8C9D2928,Yoga,duration,full_body
+40C6A9FC,Zercher Squat,weight_reps,quadriceps
+123EE239,Zottman Curl (Dumbbell),weight_reps,biceps
