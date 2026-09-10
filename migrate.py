@@ -129,11 +129,11 @@ MUSCLE_GROUP_LABELS = {
 }
 
 
-def fetch_existing_start_epochs():
-    """Return a set of start-time epoch seconds for all workouts on the account.
-    Comparing by absolute instant (not string) is robust to timezone-offset
+def fetch_existing_workouts_by_epoch():
+    """Return {start_epoch: workout_id} for all workouts on the account.
+    Keying by absolute instant (not string) is robust to timezone-offset
     differences in how start_time is formatted."""
-    epochs = set()
+    by_epoch = {}
     page = 1
     while True:
         r = requests.get(
@@ -147,12 +147,13 @@ def fetch_existing_start_epochs():
         for w in ws:
             st = w.get("start_time")
             if st:
-                epochs.add(int(datetime.fromisoformat(st.replace("Z", "+00:00")).timestamp()))
+                ep = int(datetime.fromisoformat(st.replace("Z", "+00:00")).timestamp())
+                by_epoch[ep] = w["id"]
         page_count = data.get("page_count", page)
         if page >= page_count or not ws:
             break
         page += 1
-    return epochs
+    return by_epoch
 
 
 def build_template_map(templates):
@@ -374,7 +375,7 @@ def build_workouts(sessions, exercise_logs, template_map, template_map_by_id, cr
                     "description": None,
                     "start_time": start_time,
                     "end_time": end_time,
-                    "is_private": True,
+                    "is_private": False,
                     "exercises": exercises,
                 }
             },
@@ -387,9 +388,25 @@ def build_workouts(sessions, exercise_logs, template_map, template_map_by_id, cr
 # Main
 # ---------------------------------------------------------------------------
 
+def post_with_backoff(url, payload, max_attempts=6):
+    """POST/PUT with exponential backoff on HTTP 429 (rate limit)."""
+    delay = 2.0
+    for _ in range(max_attempts):
+        r = requests.post(url, headers=HEADERS, json=payload)
+        if r.status_code != 429:
+            return r
+        time.sleep(delay)
+        delay = min(delay * 2, 60)
+    return r
+
+
 def main():
     dry_run = "--dry-run" in sys.argv
     test_one = "--test" in sys.argv
+    # --retry-missing: only create workouts not yet on the account (skips the
+    # already-uploaded ones), with backoff. Use to finish an import that was
+    # cut short by the API rate limit without re-touching everything.
+    retry_missing = "--retry-missing" in sys.argv
     csv_path = "jefit_data/StevenMcAvoy_20260611.csv"
 
     print("Loading CSV data...")
@@ -436,7 +453,7 @@ def main():
 
     print("Fetching Hevy exercise templates...")
     templates = fetch_all_exercise_templates()
-    template_map = build_template_map(templates)
+    template_map, template_map_by_id = build_template_map(templates)
     print(f"  {len(templates)} templates loaded")
 
     crosswalk = load_crosswalk()
@@ -452,38 +469,47 @@ def main():
         for name in sorted(skipped_exercises):
             print(f"    - {name}")
 
-    # Idempotency guard: skip workouts whose start instant already exists in
-    # Hevy, so re-runs don't duplicate and existing workouts are never touched.
-    print("Fetching existing Hevy workouts to avoid duplicates...")
-    existing = fetch_existing_start_epochs()
+    # Idempotency guard: match workouts to existing ones by start instant.
+    # Existing Jefit imports are updated in place (PUT); new ones are created
+    # (POST). Comparing by absolute instant makes re-runs safe and keeps
+    # previously-imported workouts in sync with the latest conversion logic.
+    print("Fetching existing Hevy workouts...")
+    existing = fetch_existing_workouts_by_epoch()
     print(f"  {len(existing)} existing workouts on the account")
 
-    pending = [w for w in workouts if w["start_epoch"] not in existing]
-    skipped_dupes = len(workouts) - len(pending)
-    if skipped_dupes:
-        print(f"  Skipping {skipped_dupes} workout(s) already present on the account")
-    workouts = pending
+    if retry_missing:
+        workouts = [w for w in workouts if w["start_epoch"] not in existing]
+        print(f"Retry-missing mode: {len(workouts)} workout(s) not yet on the account.")
 
     if test_one:
         workouts = workouts[:1]
         print(f"\nTest mode: uploading 1 workout only.")
 
-    print(f"\nUploading {len(workouts)} workout(s)...")
-    success = 0
+    n = len(workouts)
+    print(f"\nUploading {n} workout(s) ({sum(1 for w in workouts if w['start_epoch'] in existing)} update, {sum(1 for w in workouts if w['start_epoch'] not in existing)} create)...")
+    created = updated = failed = 0
     for i, w in enumerate(workouts):
-        r = requests.post(
-            f"{BASE_URL}/v1/workouts",
-            headers=HEADERS,
-            json=w["payload"],
-        )
-        if r.status_code == 201:
-            success += 1
-            print(f"  [{i+1}/{len(workouts)}] OK - session {w['session_id']}")
+        wid = existing.get(w["start_epoch"])
+        if wid:
+            r = requests.put(f"{BASE_URL}/v1/workouts/{wid}", headers=HEADERS, json=w["payload"])
+            ok, verb = r.status_code in (200, 201), "UPDATED"
         else:
-            print(f"  [{i+1}/{len(workouts)}] FAILED ({r.status_code}) - session {w['session_id']}: {r.text}")
-        time.sleep(0.3)
+            r = post_with_backoff(f"{BASE_URL}/v1/workouts", w["payload"])
+            ok, verb = r.status_code == 201, "created"
+        if ok:
+            if wid:
+                updated += 1
+            else:
+                created += 1
+            print(f"  [{i+1}/{n}] {verb} - session {w['session_id']}")
+        else:
+            failed += 1
+            print(f"  [{i+1}/{n}] FAILED ({r.status_code}) - session {w['session_id']}: {r.text[:200]}")
+        time.sleep(0.5)
 
-    print(f"\nDone: {success}/{len(workouts)} uploaded successfully.")
+    print(f"\nDone: {created} created, {updated} updated, {failed} failed (of {n}).")
+    if failed:
+        print("Some workouts failed (likely API rate limit). Re-run later with --retry-missing to finish.")
 
 
 if __name__ == "__main__":
