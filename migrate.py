@@ -22,6 +22,10 @@ HEADERS = {"api-key": API_KEY, "Content-Type": "application/json"}
 
 LBS_TO_KG = 0.453592
 CROSSWALK_PATH = "exercise_crosswalk.csv"
+# Sessions longer than this are treated as timer errors: their end time is
+# capped and a note is added to the workout description.
+MAX_SESSION_HOURS = 4
+CAP_SESSION_MINUTES = 90
 # Jefit timestamps are absolute (Unix epoch). Render them in the user's local
 # zone so evening workouts keep their correct local date (Toronto, with DST).
 LOCAL_TZ = ZoneInfo("America/Toronto")
@@ -297,6 +301,20 @@ def build_workouts(sessions, exercise_logs, template_map, template_map_by_id, cr
 
         start_ts = int(session["starttime"])
         end_ts = int(session["endtime"])
+
+        # Flag likely timer errors: sessions running longer than MAX_SESSION_HOURS
+        # almost certainly had the stopwatch left running. Cap the end time to a
+        # sane default and note the original duration in the description.
+        description = None
+        dur_hours = (end_ts - start_ts) / 3600.0
+        if dur_hours > MAX_SESSION_HOURS:
+            end_ts = start_ts + CAP_SESSION_MINUTES * 60
+            description = (
+                f"⚠️ Likely timer error on import: the original Jefit session "
+                f"spanned {dur_hours:.1f}h (stopwatch probably left running). "
+                f"End time capped to {CAP_SESSION_MINUTES} min."
+            )
+
         start_time = datetime.fromtimestamp(start_ts, tz=LOCAL_TZ).isoformat()
         end_time = datetime.fromtimestamp(end_ts, tz=LOCAL_TZ).isoformat()
 
@@ -372,7 +390,7 @@ def build_workouts(sessions, exercise_logs, template_map, template_map_by_id, cr
             "payload": {
                 "workout": {
                     "title": title,
-                    "description": None,
+                    "description": description,
                     "start_time": start_time,
                     "end_time": end_time,
                     "is_private": False,
