@@ -1,0 +1,290 @@
+jefit_name,hevy_template_id,match_type,notes
+Ab Crunch Machine,DCF3B31B,partial,
+Air Bike,A41C7261,manual_fix,
+Back Extension Machine,A05C064D,manual,-> Back Extension (Machine)
+Back Hyperextension,091737FA,community_map,
+Band Bench Press,EAC7D9C5,manual,-> Chest Press (Band)
+Band Cross Over,DDB7C19F,manual,-> Chest Fly (Band)
+Band Lateral Raises,DF200976,manual,-> Lateral Raise (Band)
+Band Squat,F1258206,manual,-> Squat (Band)
+Barbell Ab Rollout,99D5F10E,manual,-> Ab Wheel
+Barbell Ab Rollout on Knees,99D5F10E,community_map,
+Barbell Bench Press,79D0BB3A,community_map,
+Barbell Bench Press (Close Grip),35B51B87,community_map,
+Barbell Bent Over Row,55E6546F,community_map,
+Barbell Bent-Over Row,55E6546F,community_map,
+Barbell Body Row,425805F4,manual,-> Inverted Row
+Barbell Bulgarian Split Squat,B5D3A742,community_map,
+Barbell Close Grip Bench Press,35B51B87,community_map,
+Barbell Close Grip Preacher Curl,4F942934,manual,-> Preacher Curl (Barbell)
+Barbell Curl,A5AC6449,community_map,
+Barbell Deadlift,C6272009,community_map,
+Barbell Decline Bench Press,DA0F0470,community_map,
+Barbell EZ Bar Reverse Grip Curl,112FC6B7,manual,-> Reverse Curl (Barbell)
+Barbell Front Squat,5046D0A9,community_map,
+Barbell Good Morning,4180C405,community_map,
+Barbell Hip Thrust,D57C2EC7,community_map,
+Barbell Incline Bench Press,50DFDFAB,community_map,
+Barbell Incline Bench Press (Close Grip),50DFDFAB,manual,-> Incline Bench Press (Barbell)
+Barbell Incline Close Grip Bench Press,50DFDFAB,manual,-> Incline Bench Press (Barbell)
+Barbell Lying Triceps Extension,875F585F,community_map,
+Barbell Military Press,073032BB,community_map,
+Barbell Overhead Squat,2CFED196,partial,
+Barbell Preacher Curl,4F942934,community_map,
+Barbell Push Press,542F3CD5,partial,
+Barbell Rack Pull,FE389074,partial,
+Barbell Reverse Grip Skullcrusher,875F585F,manual,-> Skullcrusher (Barbell)
+Barbell Romanian Deadlift,2B4B7310,community_map,
+Barbell Shrug,0B841777,community_map,
+Barbell Snatch Shrug,FB09C938,partial,
+Barbell Spider Curl,2348AB72,manual,-> Spider Curl (Barbell)
+Barbell Squat,D04AC939,community_map,
+Barbell Standing Military Press,073032BB,community_map,
+Barbell Sumo Deadlift,D20D7BBE,partial,
+Barbell Supine Triceps Extension,2F8D3067,community_map,
+Barbell Up Right Row,7AB9A362,manual_fix,
+Bench Press Machine,7EB3F7C3,manual,-> Chest Press (Machine)
+Bench Pushups,39C99849,manual_review,-> Incline Push Ups  (REVIEW)
+Bicep Curl Machine,AF328E3D,community_map,
+Bodyweight Step Up,128A2381,partial,
+Box Jump Multiple Response,56092DD1,partial,
+Cable Bicep Curl,ADA8623C,community_map,
+Cable Biceps Curl,ADA8623C,manual,-> Bicep Curl (Cable)
+Cable Close Grip Curl,ADA8623C,manual,-> Bicep Curl (Cable)
+Cable Cross Over,651F844C,community_map,
+Cable Cross-Over,651F844C,community_map,
+Cable Crunch,23A48484,community_map,
+Cable Fly on Exercise Ball,651F844C,manual,-> Cable Fly Crossovers
+Cable Front Lat Pulldown (Close Grip),4E5257DE,community_map,
+Cable High Cross Over,651F844C,manual,-> Cable Fly Crossovers
+Cable High Cross-Over,651F844C,manual,-> Cable Fly Crossovers
+Cable Incline Fly,651F844C,manual,-> Cable Fly Crossovers
+Cable Incline Pulldown (Supine),D2387AB1,manual,-> Straight Arm Lat Pulldown (Cable)
+Cable Incline Pulldown (supine),D2387AB1,manual,-> Straight Arm Lat Pulldown (Cable)
+Cable Incline Pullover,D2387AB1,manual,-> Straight Arm Lat Pulldown (Cable)
+Cable Incline Pushdown,93A552C6,manual,-> Triceps Pushdown
+Cable Inner Chest Press,651F844C,manual,-> Cable Fly Crossovers
+Cable Kneeling Crunch,23A48484,community_map,
+Cable Kneeling Pulldown,6A6C31A5,manual,-> Lat Pulldown (Cable)
+Cable Lat Pulldown (Wide Grip),6A6C31A5,community_map,
+Cable Lateral Raise,DE68C825,community_map,
+Cable Lower Chest Raise,293483AD,community_map,
+Cable Mid Chest Crossover,651F844C,community_map,
+Cable One Arm Lat Pulldown,2EE45F81,manual,-> Single Arm Lat Pulldown
+Cable One Arm Seated Row,D0C4A899,manual,-> Single Arm Cable Row
+Cable One-Arm Bicep Curl,B33B526E,manual,-> Single Arm Curl (Cable)
+Cable One-Arm Lat Pulldown,2EE45F81,manual,-> Single Arm Lat Pulldown
+Cable One-Arm Seated Row,D0C4A899,manual,-> Single Arm Cable Row
+Cable Palm Rotational Row,D0C4A899,manual,-> Single Arm Cable Row
+Cable Pull Through,8C331CD8,exact,
+Cable Reverse Fly,C315DC2A,community_map,
+Cable Rope Face Pull,BE640BA0,community_map,
+Cable Rope Overhead Tricep Extension,B5EFBF9C,community_map,
+Cable Rope Overhead Triceps Extension,B5EFBF9C,manual,-> Overhead Triceps Extension (Cable)
+Cable Rope Row To Neck,BE640BA0,manual,-> Face Pull
+Cable Rope Triceps Pushdown,94B7239B,community_map,
+Cable Seated Row,0393F233,community_map,
+Cable Shoulder Press,878CD1D0,manual_review,-> Shoulder Press (Dumbbell)  (REVIEW)
+Cable Standing Biceps Curl,ADA8623C,manual,-> Bicep Curl (Cable)
+Cable Standing One Arm Bicep Curl,B33B526E,manual,-> Single Arm Curl (Cable)
+Cable Standing One-Arm Bicep Curl,B33B526E,manual,-> Single Arm Curl (Cable)
+Cable Standing Row,F1D60854,manual_review,-> Seated Cable Row - Bar Grip  (REVIEW)
+Cable Straight Arm Push Down,D2387AB1,manual,-> Straight Arm Lat Pulldown (Cable)
+Cable Straight Arm Pushdown,D2387AB1,manual,-> Straight Arm Lat Pulldown (Cable)
+Cable Tricep Kickback,EC3B69A3,community_map,
+Cable Tricep Pushdown,93A552C6,community_map,
+Cable Tricep Pushdown (V-Bar),93A552C6,community_map,
+Cable Triceps Pushdown,93A552C6,community_map,
+Cable Up Right Row,286C1D0B,community_map,
+Cable Upright Row,286C1D0B,community_map,
+Cable Wood Chops,A2D838BD,community_map,
+Calf Press On Leg Press,91237BDD,community_map,
+Calf Press on Leg Press Machine,91237BDD,community_map,
+Chest Dip,6FCD7755,exact,
+Chin-Up,29083183,community_map,
+Close Grip Chin Up,29083183,partial,
+Close Grip Front Lat Pulldown,4E5257DE,community_map,
+Close Grip Vertical Row,0393F233,manual,-> Seated Cable Row - V Grip (Cable)
+Crunches,DCF3B31B,community_map,
+Decline Bench Weighted Twist,2982AA23,manual,-> Russian Twist (Weighted)
+Decline Crunch,BC10A922,community_map,
+Deep Push-Up,392887AA,manual,-> Push Up
+Dip,28BB4A95,community_map,
+Dip Machine,5122E7D9,partial,
+Dumbbell Alternate Bicep Curl,37FCC2BB,manual,-> Bicep Curl (Dumbbell)
+Dumbbell Alternate Hammer Curl,7E3BC8B6,manual,-> Hammer Curl (Dumbbell)
+Dumbbell Alternate One Arm Standing Palms In Press,878CD1D0,manual,-> Shoulder Press (Dumbbell)
+Dumbbell Alternating Hammer Curl,7E3BC8B6,community_map,
+Dumbbell Arnold Press,A69FF221,manual,-> Arnold Press (Dumbbell)
+Dumbbell Bench Press,3601968B,community_map,
+Dumbbell Bent Over Delt Raise,E5988A0A,manual,-> Rear Delt Reverse Fly (Dumbbell)
+Dumbbell Bent Over Row,23E92538,community_map,
+Dumbbell Bicep Curl,37FCC2BB,community_map,
+Dumbbell Close Grip Press,BE89C631,manual,-> Hex Press (Dumbbell)
+Dumbbell Concentration Curl,724CDE60,community_map,
+Dumbbell Concentration Curls,724CDE60,community_map,
+Dumbbell Decline Bench Press,18487FA7,community_map,
+Dumbbell Deep Push-Up,392887AA,manual,-> Push Up
+Dumbbell Fly,12017185,community_map,
+Dumbbell Front Raise,8293E554,community_map,
+Dumbbell Hammer Curl,7E3BC8B6,community_map,
+Dumbbell Hammer Curl (Neutral Grip),7E3BC8B6,manual,-> Hammer Curl (Dumbbell)
+Dumbbell Hammer Curls,7E3BC8B6,community_map,
+Dumbbell Incline Bench Press,07B38369,community_map,
+Dumbbell Incline Curl,8BAB2735,community_map,
+Dumbbell Incline Fly,D3E2AB55,community_map,
+Dumbbell Lateral Raise,422B08F1,community_map,
+Dumbbell Lunges,5E1A7777,partial,
+Dumbbell Lying Rear Delt Row,E5988A0A,manual,-> Rear Delt Reverse Fly (Dumbbell)
+Dumbbell Lying Supine Two Arm Triceps Extension,3765684D,manual,-> Triceps Extension (Dumbbell)
+Dumbbell Lying Triceps Extension,3765684D,manual,-> Triceps Extension (Dumbbell)
+Dumbbell One Arm Front Raise,8293E554,manual,-> Front Raise (Dumbbell)
+Dumbbell One Arm Row,F1E57334,community_map,
+Dumbbell One Arm Triceps Extension,8347DFD1,manual,-> Single Arm Tricep Extension (Dumbbell)
+Dumbbell One-Arm Row,F1E57334,community_map,
+Dumbbell One-Arm Tricep Extension,8347DFD1,community_map,
+Dumbbell Preacher Curl,FAB6EB2F,manual,-> Preacher Curl (Dumbbell)
+Dumbbell Pullover,67280085,community_map,
+Dumbbell Seated One-Arm Tricep Extension,8347DFD1,manual,-> Single Arm Tricep Extension (Dumbbell)
+Dumbbell Seated Palms Down One Arm Wrist Curl,9202CC23,manual_review,-> Seated Wrist Extension (Barbell)  (REVIEW)
+Dumbbell Seated Shoulder Press,878CD1D0,community_map,
+Dumbbell Seated Single-Leg Calf Raise,062AB91A,manual,-> Seated Calf Raise
+Dumbbell Shoulder Press,878CD1D0,community_map,
+Dumbbell Shoulder Shrug,ABEC557F,community_map,
+Dumbbell Standing Arnold Press,A69FF221,manual,-> Arnold Press (Dumbbell)
+Dumbbell Standing Triceps Extension,3765684D,manual,-> Triceps Extension (Dumbbell)
+Dumbbell Straight Arm Pullover,67280085,manual,-> Pullover (Dumbbell)
+Dumbbell Supine Triceps Extension,3765684D,community_map,
+Dumbbell Upright Row,797F0782,community_map,
+Dumbbell Walking Lunges,A733CC5B,community_map,
+Dumbbell lateral raise iso-hold,422B08F1,manual,-> Lateral Raise (Dumbbell)
+EZ Bar Curl,01A35BF9,community_map,
+EZ Bar Curl (Reverse Grip),112FC6B7,manual,-> Reverse Curl (Barbell)
+EZ Bar Reverse Grip Curl,112FC6B7,manual,-> Reverse Curl (Barbell)
+EZ Bar Tricep Extension,875F585F,community_map,
+EZ Bar Triceps Extension,875F585F,community_map,
+Exercise Ball Crunch,DCF3B31B,partial,
+Exercise Ball Jack Knife Push Up,392887AA,partial,
+Exercise Ball One Legged Diagonal Kick Hamstring Curl,108D7A14,manual_review,-> Nordic Hamstrings Curls  (REVIEW)
+Exercise Ball Pike Pushup,0EFE8162,partial,
+Exercise Ball Side Crunch,DCF3B31B,partial,
+Glute Ham Raise,68B83EE0,exact,
+Hack Squat,AC5A4C58,community_map,
+Hanging Leg Raise,F8356514,community_map,
+Hanging Pike,F8356514,manual,-> Hanging Leg Raise
+Helms Row,914F3A96,manual,-> Chest Supported Incline Row (Dumbbell)
+Hip Thrusts,92B8C7E1,partial,
+Hyperextensions - Back Extensions,4F5866F8,manual,-> Back Extension (Hyperextension)
+Incline Dumbbell Row,F1E57334,partial,
+Inverse Zottman Curl,123EE239,manual,-> Zottman Curl (Dumbbell)
+Inverted Row,425805F4,exact,
+Jackknife Sit-Up,32B0B590,manual,-> Jackknife Sit Up
+Kettlebell Goblet Squat,A127DA73,community_map,
+Kettlebell Pistol Squat,3FF6A22E,partial,
+Knee Hip Raise On Parallel Bars,98237BA2,community_map,
+Kneeling Leg Curl,6120CAAB,manual,-> Standing Leg Curls
+L-sit hold,6D54A050,exact,
+Leg Extension,75A4F6C4,community_map,
+Leg Extension with One Leg,629AE73D,community_map,
+Leg Extensions,75A4F6C4,community_map,
+Leg Press,C7973E0E,community_map,
+Leg Press Machine,C7973E0E,manual,-> Leg Press (Machine)
+Leg Press with Narrow Stance,C7973E0E,manual,-> Leg Press (Machine)
+Leg Pull In,7952B5CD,manual,-> Reverse Crunch
+Leg Raise,09C9F635,community_map,
+Leg Slide,108D7A14,manual_review,-> Nordic Hamstrings Curls  (REVIEW)
+Leverage Chest Press,24706DCD,manual,-> Iso-Lateral Chest Press (Machine)
+Leverage Decline Chest Press,FAF31231,manual,-> Decline Bench Press (Machine)
+Leverage Machine High Row,BC3492DA,manual,-> Iso-Lateral High Row (Machine)
+Leverage Machine Iso Row,AA1EB7D8,community_map,
+Leverage Shrug,19A38071,manual,-> Shrug (Machine)
+Lying Leg Curls,B8127AD1,community_map,
+Machine Ab Crunch,EB43ADD4,community_map,
+Machine Assisted Chin Up,29083183,partial,
+Machine Assisted Hammer Grip Pull Up,1B2B1E7C,partial,
+Machine Assisted Pull Up,2C37EC5E,community_map,
+Machine Calf Press,91237BDD,manual,-> Calf Press (Machine)
+Machine Calf Raise,91237BDD,community_map,
+Machine Decline Chest Press,FAF31231,manual,-> Decline Bench Press (Machine)
+Machine Deltoid Raise,D5D0354D,manual,-> Lateral Raise (Machine)
+Machine Fly,78683336,community_map,
+Machine Hip Abduction,F4B4C6EE,community_map,
+Machine Incline Chest Press,FBF92739,community_map,
+Machine Inner Chest Press,7EB3F7C3,manual,-> Chest Press (Machine)
+Machine Iso Lateral High Row,BC3492DA,community_map,
+Machine Lat Pull Down,473CF5B8,manual,-> Lat Pulldown (Machine)
+Machine Lat Pulldown ( Reverse Grip),046E25A2,manual,-> Reverse Grip Lat Pulldown (Cable)
+Machine Lat Pulldown (Reverse Grip),046E25A2,community_map,
+Machine Leg Curl (Prone),11A123F3,community_map,
+Machine Leg Extension,75A4F6C4,community_map,
+Machine Leg Press,C7973E0E,community_map,
+Machine Reverse Fly,D8281C62,manual,-> Rear Delt Reverse Fly (Machine)
+Machine Reverse Flyes,D8281C62,community_map,
+Machine Reverse T Bar Row,08A2974E,community_map,
+Machine Seated Leg Curl,11A123F3,community_map,
+Machine Seated Row,1DF4A847,community_map,
+Machine Shoulder Press,9237BAD1,community_map,
+Machine Single-Leg Curl,11A123F3,community_map,
+Machine Single-Leg Press,3FD83744,community_map,
+Meadows row,C732C341,partial,
+Nordic ham curl,108D7A14,manual,-> Nordic Hamstrings Curls
+One Leg 45 Degree Leg Press,3FD83744,manual,-> Single Leg Press (Machine)
+One Leg Bodyweight Squat,3FF6A22E,manual,-> Pistol Squat
+Parallel Bar Leg Raise,0482DA98,manual,-> Leg Raise Parallel Bars
+Plank,C6C9B8A0,community_map,
+Prone Leg Curl,B8127AD1,community_map,
+Prone Trap raise,F21D5693,manual_review,-> Chest Supported Y Raise (Dumbbell)  (REVIEW)
+Pull Ups,1B2B1E7C,community_map,
+Pull-Up,1B2B1E7C,community_map,
+Push Up,392887AA,community_map,
+Push Up On Exercise Dome,392887AA,partial,
+Push Up with Feet Elevated,392887AA,partial,
+Rear Bodyweight Lunge,5E1A7777,partial,
+Reverse Crunch,7952B5CD,exact,
+Reverse Grip Lat Pull Down,046E25A2,community_map,
+Reverse Lying T Bar Machine Row,08A2974E,manual,-> T Bar Row
+Running,AC1BB830,exact,
+Scissor Kick,B4F2FF72,community_map,
+Seated Calf Raise,062AB91A,community_map,
+Seated Leg Curl,11A123F3,community_map,
+Seated Machine Row,1DF4A847,community_map,
+Seated Single-Leg Calf Raise,062AB91A,manual,-> Seated Calf Raise
+Shoulder Raise Machine,D5D0354D,manual_review,-> Lateral Raise (Machine)  (REVIEW)
+Side Bridge,E3EDA509,manual,-> Side Plank
+Single Leg Curl,6120CAAB,manual,-> Standing Leg Curls
+Single Leg Extension,629AE73D,partial,
+Single Leg Press,3FD83744,partial,
+Single-Leg Calf Raise,238BA231,manual,-> Single Leg Standing Calf Raise
+Single-Leg Curl,6120CAAB,manual,-> Standing Leg Curls
+Single-Leg Press,3FD83744,manual,-> Single Leg Press (Machine)
+Sit Up,022DF610,exact,
+Smith Machine Bulgarian Split Squat,B5D3A742,partial,
+Smith Machine Close Grip Bench Press,0FBF7195,manual,-> Bench Press (Smith Machine)
+Smith Machine Lunge,5dd5cb0a-26d9-4ce2-8c90-b69535930e4d,exact,
+Smith Machine Overhead Shoulder Press,B09A1304,manual,-> Overhead Press (Smith Machine)
+Smith Machine Shoulder Press,B09A1304,manual,-> Overhead Press (Smith Machine)
+Smith Machine Shrug,742E5BD5,manual,-> Shrug (Smith Machine)
+Smith Machine Squat,DDCC3821,community_map,
+Stability Ball Hamstring Curl to Bridge,108D7A14,manual_review,-> Nordic Hamstrings Curls  (REVIEW)
+Stability Ball Single-Leg Hamstring Curl,108D7A14,manual_review,-> Nordic Hamstrings Curls  (REVIEW)
+Standing Calf Raise,062AB91A,community_map,
+Standing Calf Raises,06745E58,partial,
+Standing Glute Kickback,ACB2751D,manual,-> Standing Cable Glute Kickbacks
+T Bar Lying Row,08A2974E,community_map,
+T Bar Prone Row,08A2974E,community_map,
+T Bar Row,08A2974E,community_map,
+Thigh Abductor,F4B4C6EE,community_map,
+Thigh Adductor,8BEBFED6,community_map,
+Toe Touchers,75BAC5C3,partial,
+Treadmill Running,AC1BB830,partial,
+Triceps Pushdown V Bar,93A552C6,partial,
+V Ups,6BE68B62,partial,
+Weight Plate  Decline Crunch,DCF3B31B,partial,
+Weight Plate Front Raise,DBF9273A,partial,
+Weight Plate Shrugs,0B841777,manual_review,-> Shrug (Barbell)  (REVIEW)
+Weighted Pull Ups,1B2B1E7C,partial,
+Weighted Pull-Up,729237D1,community_map,
+Weighted Tricep Dip,10347BAC,manual,-> Triceps Dip (Weighted)
+Weighted Tricep Dips,10347BAC,manual,-> Triceps Dip (Weighted)
+Wide Grip Lat Pulldown,6A6C31A5,community_map,
+Wide Hand Pushup,392887AA,manual,-> Push Up
